@@ -1,4 +1,11 @@
+
 https://github.com/Dev-Re2906/Dev-Re2906/commits/publish
+https://deploy-snowy-two.vercel.app/
+
+git clone https://github.com/Dev-Re2906/Dev-Re2906.git
+git add .
+git commit -m "Ready for publish"
+git push origin main
 
 # This workflow will build a docker container, publish and deploy it to Tencent Kubernetes Engine (TKE) when there is a push to the "main" branch.
 #
