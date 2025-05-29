@@ -1,0 +1,71 @@
+{
+    "display_information": {
+        "name": "Re2906",
+        "description": "deploy jetton contract and publish for ton blockchain mainnet",
+        "background_color": "#27396e"
+    },
+    "features": {
+        "app_home": {
+            "home_tab_enabled": true,
+            "messages_tab_enabled": true,
+            "messages_tab_read_only_enabled": false
+        },
+        "bot_user": {
+            "display_name": "Re2906",
+            "always_online": true
+        },
+        "shortcuts": [
+            {
+                "name": "Re2906",
+                "type": "global",
+                "callback_id": "jalilirad",
+                "description": "automation "
+            }
+        ],
+        "slash_commands": [
+            {
+                "command": "/automation",
+                "url": "https://github.com/Re2906/tact.git",
+                "description": "publish and deploy ",
+                "should_escape": true
+            }
+        ],
+        "assistant_view": {
+            "assistant_description": "automatically complete all tasks allow ",
+            "suggested_prompts": []
+        }
+    },
+    "oauth_config": {
+        "scopes": {
+            "user": [
+                "admin",
+                "admin.analytics:read",
+                "admin.barriers:write",
+                "admin.conversations:manage_objects",
+                "admin.teams:write"
+            ],
+            "bot": [
+                "app_mentions:read",
+                "assistant:write",
+                "calls:read",
+                "canvases:read",
+                "channels:write.topic",
+                "chat:write.customize",
+                "chat:write",
+                "remote_files:write",
+                "incoming-webhook",
+                "commands"
+            ]
+        }
+    },
+    "settings": {
+        "interactivity": {
+            "is_enabled": true,
+            "request_url": "https://github.com/Re29066/tact3",
+            "message_menu_options_url": "https://github.com/Re2906/contract-verifier-config/tree/Re2906%2Fissue26"
+        },
+        "org_deploy_enabled": true,
+        "socket_mode_enabled": false,
+        "token_rotation_enabled": false
+    }
+}
