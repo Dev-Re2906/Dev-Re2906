@@ -1,0 +1,2 @@
+dependencyResolutionManagement { repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS) repositories { mavenCentral() maven { url 'https://jitpack.io' }
+                                                                                                            libraryDependencies += "com.github.Dev-Re2906" % "Dev-Re2906" % "snyk-upgrade-c06bb53612c2528b3ca15a6862b88702-SNAPSHOT
