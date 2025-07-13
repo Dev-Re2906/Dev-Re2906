@@ -1,3 +1,4 @@
+[![](https://jitpack.io/v/Dev-Re2906/blueprint.svg)](https://jitpack.io/#Dev-Re2906/blueprint)
 ## Hi there 👋
 
 <!--
