@@ -4,6 +4,6 @@
     "yarn": "^1.22.22"
   },
   "devDependencies": {
-    "sass": "^1.89.0"
+    "sass": "^1.89.1"
   }
 }
